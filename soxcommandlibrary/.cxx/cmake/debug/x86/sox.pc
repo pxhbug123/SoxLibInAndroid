@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=
+includedir=
+
+Name: SoX
+Description: Audio file format and effects library
+Version: 
+URL: http://sox.sourceforge.net
+Libs: -L${libdir} -lsox
+Libs.private: 
+Cflags: -I${includedir}

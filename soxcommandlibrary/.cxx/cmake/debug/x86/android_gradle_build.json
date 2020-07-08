@@ -1,0 +1,1100 @@
+
+{
+	"buildFiles" : 
+	[
+		"F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/CMakeLists.txt",
+		"F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/CMakeLists.txt",
+		"F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/CMakeLists.txt",
+		"F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"gsm-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "gsm",
+			"buildCommand" : "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target gsm",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/add.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/code.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/decode.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/gsm_create.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/gsm_decode.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/gsm_destroy.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/gsm_encode.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/gsm_option.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/long_term.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/lpc.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/preprocess.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/rpe.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/short_term.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/libgsm/table.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/libgsm/libgsm.a",
+			"toolchain" : "3098235929"
+		},
+		"libsox-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libsox",
+			"buildCommand" : "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target libsox",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/effects.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/formats_i.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/libsox_i.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/effects_i.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/8svx.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/adpcm.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/adpcms.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/aifc-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/aiff.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/aiff-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/al-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/au.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/avr.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/cdr.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/cvsd.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/cvsd-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/dat.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/dvms-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/f4-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/f8-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/g711.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/g721.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/g723_24.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/g723_40.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/g72x.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/gsm.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/gsrt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/hcom.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/htk.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/ima-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/ima_rw.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/la-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/lpc10.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/lu-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/maud.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/nulfile.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/prc.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/raw.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/raw-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/s1-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/s2-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/s3-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/s4-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/sf.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/skelform.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/smp.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/sounder.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/soundtool.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/sox-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/sphere.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/tx16w.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/u1-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/u2-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/u3-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/u4-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/ul-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/voc.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/vox.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/vox-fmt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/wav.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/wve.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/xa.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/effects_i_dsp.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/getopt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/bend.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/biquad.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/biquads.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/chorus.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/compand.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/compandt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/contrast.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/dcshift.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/delay.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/dft_filter.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/dither.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/divide.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/downsample.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/earwax.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/echo.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/echos.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/fade.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/fft4g.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/fir.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/firfit.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/flanger.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/gain.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/hilbert.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/input.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/loudness.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/mcompand.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/noiseprof.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/noisered.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/output.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/overdrive.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/pad.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/phaser.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/rate.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/remix.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/repeat.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/reverb.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/reverse.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/silence.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/sinc.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/skeleff.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/speed.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/splice.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/stat.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/stats.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/stretch.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/swap.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/synth.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/tempo.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/tremolo.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/trim.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/upsample.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/vad.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/vol.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/util.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/formats.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/libsox.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/xmalloc.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/src/liblibsox.a",
+			"toolchain" : "3098235929"
+		},
+		"lpc10-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "lpc10",
+			"buildCommand" : "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target lpc10",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/analys.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/bsynz.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/chanwr.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/dcbias.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/decode.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/deemp.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/difmag.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/dyptrk.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/encode.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/energy.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/f2clib.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/ham84.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/hp100.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/invert.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/irc2pc.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/ivfilt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/lpcdec.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/lpcenc.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/lpcini.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/lpfilt.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/median.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/mload.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/onset.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/pitsyn.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/placea.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/placev.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/preemp.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/prepro.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/random.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/rcchk.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/synths.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/tbdm.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/voicin.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Ilpc10 -Ilpc10\\..\\src  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/lpc10/vparms.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86/lpc10/liblpc10.a",
+			"toolchain" : "3098235929"
+		},
+		"mySox-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "mySox",
+			"buildCommand" : "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target mySox",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DmySox_EXPORTS -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/sox.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android17 --gcc-toolchain=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DmySox_EXPORTS -Isrc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -std=c99 -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "F:/SoxCommandLibAndroid/soxcommandlibrary/src/main/sox/src/JniNative.c",
+					"workingDirectory" : "F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86"
+				}
+			],
+			"output" : "F:/SoxCommandLibAndroid/soxcommandlibrary/build/intermediates/cmake/debug/obj/x86/libmySox.so",
+			"toolchain" : "3098235929"
+		}
+	},
+	"toolchains" : 
+	{
+		"3098235929" : 
+		{
+			"cCompilerExecutable" : "C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

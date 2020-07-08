@@ -1,0 +1,125 @@
+-- Check for working C compiler: C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
+-- Check for working C compiler: C:/Users/se0877/AppData/Local/Android/Sdk/ndk/20.1.5948944/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for include file byteswap.h
+-- Looking for include file byteswap.h - found
+-- Looking for include file inttypes.h
+-- Looking for include file inttypes.h - found
+-- Looking for include file fenv.h
+-- Looking for include file fenv.h - found
+-- Looking for include file glob.h
+-- Looking for include file glob.h - found
+-- Looking for include file io.h
+-- Looking for include file io.h - not found
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - found
+-- Looking for include file string.h
+-- Looking for include file string.h - found
+-- Looking for include file strings.h
+-- Looking for include file strings.h - found
+-- Looking for include file sys/stat.h
+-- Looking for include file sys/stat.h - found
+-- Looking for include file sys/time.h
+-- Looking for include file sys/time.h - found
+-- Looking for include file sys/timeb.h
+-- Looking for include file sys/timeb.h - not found
+-- Looking for include file sys/types.h
+-- Looking for include file sys/types.h - found
+-- Looking for include file sys/utsname.h
+-- Looking for include file sys/utsname.h - found
+-- Looking for include file termios.h
+-- Looking for include file termios.h - found
+-- Looking for include file unistd.h
+-- Looking for include file unistd.h - found
+-- Looking for fmemopen
+-- Looking for fmemopen - not found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Looking for popen
+-- Looking for popen - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for strrstr
+-- Looking for strrstr - not found
+-- Looking for vsnprintf
+-- Looking for vsnprintf - found
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for include file math.h
+-- Looking for include file math.h - found
+-- Looking for pow in m
+-- Looking for pow in m - found
+-- Looking for include file math.h
+-- Looking for include file math.h - found
+-- Looking for lrint in m
+-- Looking for lrint in m - found
+-- Looking for include file gsm/gsm.h
+-- Looking for include file gsm/gsm.h - not found
+-- Looking for include file lpc10/lpc10.h
+-- Looking for include file lpc10/lpc10.h - not found
+-- Looking for include file alsa/asoundlib.h
+-- Looking for include file alsa/asoundlib.h - not found
+-- Looking for include file amrnb/sp_dec.h
+-- Looking for include file amrnb/sp_dec.h - not found
+-- Looking for include file amrwb/dec.h
+-- Looking for include file amrwb/dec.h - not found
+-- Looking for include file id3tag.h
+-- Looking for include file id3tag.h - not found
+-- Looking for include file sndio.h
+-- Looking for include file sndio.h - not found
+-- Looking for include file ao/ao.h
+-- Looking for include file ao/ao.h - not found
+-- Looking for include file FLAC/all.h
+-- Looking for include file FLAC/all.h - not found
+-- Looking for include file mad.h
+-- Looking for include file mad.h - not found
+-- Looking for include file lame/lame.h
+-- Looking for include file lame/lame.h - not found
+-- Looking for include file twolame.h
+-- Looking for include file twolame.h - not found
+-- Looking for include file magic.h
+-- Looking for include file magic.h - not found
+-- Looking for include file png.h
+-- Looking for include file png.h - not found
+-- Looking for include file pulse/simple.h
+-- Looking for include file pulse/simple.h - not found
+-- Looking for include file sndfile.h
+-- Looking for include file sndfile.h - not found
+-- Looking for include file speex/speex_preprocess.h
+-- Looking for include file speex/speex_preprocess.h - not found
+-- Looking for include file sun/audioio.h
+-- Looking for include file sun/audioio.h - not found
+-- Looking for include file sys/audioio.h
+-- Looking for include file sys/audioio.h - not found
+-- Looking for include file sys/soundcard.h
+-- Looking for include file sys/soundcard.h - not found
+-- Looking for include file machine/soundcard.h
+-- Looking for include file machine/soundcard.h - not found
+-- Looking for include file mmsystem.h
+-- Looking for include file mmsystem.h - not found
+-- Looking for include file vorbis/codec.h
+-- Looking for include file vorbis/codec.h - found
+-- Looking for ogg_stream_flush in ogg
+-- Looking for ogg_stream_flush in ogg - not found
+-- Looking for include file opusfile.h
+-- Looking for include file opusfile.h - not found
+-- Looking for include file wavpack/wavpack.h
+-- Looking for include file wavpack/wavpack.h - not found
+-- Looking for lame_set_VBR_quality
+-- Looking for lame_set_VBR_quality - not found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: F:/SoxCommandLibAndroid/soxcommandlibrary/.cxx/cmake/debug/x86

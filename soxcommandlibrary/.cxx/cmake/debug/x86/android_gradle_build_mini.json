@@ -1,0 +1,37 @@
+{
+  "buildFiles": [
+    "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\CMakeLists.txt",
+    "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\src\\CMakeLists.txt",
+    "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\libgsm\\CMakeLists.txt",
+    "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\lpc10\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "mySox-Debug-x86": {
+      "artifactName": "mySox",
+      "buildCommand": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target mySox",
+      "abi": "x86",
+      "output": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj\\x86\\libmySox.so"
+    },
+    "lpc10-Debug-x86": {
+      "artifactName": "lpc10",
+      "buildCommand": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target lpc10",
+      "abi": "x86",
+      "output": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\lpc10\\liblpc10.a"
+    },
+    "libsox-Debug-x86": {
+      "artifactName": "libsox",
+      "buildCommand": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target libsox",
+      "abi": "x86",
+      "output": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\src\\liblibsox.a"
+    },
+    "gsm-Debug-x86": {
+      "artifactName": "gsm",
+      "buildCommand": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86 --target gsm",
+      "abi": "x86",
+      "output": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\libgsm\\libgsm.a"
+    }
+  }
+}

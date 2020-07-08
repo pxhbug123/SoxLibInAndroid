@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "F:\\SoxCommandLibAndroid",
+      "sdkFolder": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates",
+      "gradleModulePathName": ":soxcommandlibrary",
+      "moduleRootFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary",
+      "makeFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\src\\main\\sox\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "F:\\SoxCommandLibAndroid\\.cxx",
+      "cxxFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx",
+      "ndkFolder": "C:\\Users\\se0877\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 17,
+  "cxxBuildFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86",
+  "jsonFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86",
+  "objFolder": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "buildCommandFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\build_command.txt",
+  "buildOutputFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\build_output.txt",
+  "modelOutputFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\build_generation_state.json",
+    "cacheKeyFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cxx\\debug\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "F:\\SoxCommandLibAndroid\\soxcommandlibrary\\.cxx\\cmake\\debug\\x86\\compile_commands.json"
+}
