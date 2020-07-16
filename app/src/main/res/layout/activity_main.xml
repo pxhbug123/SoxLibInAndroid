@@ -15,16 +15,33 @@
             android:ems="10"
             android:inputType="textPersonName" />
 
-        <TextView
-            android:id="@+id/result"
+        <Button
+            android:id="@+id/Record"
             android:layout_width="match_parent"
-            android:layout_height="116dp" />
+            android:layout_height="92dp"
+            android:onClick="Record"
+            android:text="Record" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/MickyMouse"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="Excuate"
-            android:text="Excuate" />
+            android:layout_height="114dp"
+            android:onClick="MickyMouseVoice"
+            android:text="MickyMouse" />
+
+        <Button
+            android:id="@+id/Robot"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:onClick="RobotVoice"
+            android:text="Robot" />
+
+        <Button
+            android:id="@+id/Play"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:onClick="Play"
+            android:text="PLAY" />
+
     </LinearLayout>
 </LinearLayout>
