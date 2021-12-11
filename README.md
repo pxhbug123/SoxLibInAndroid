@@ -3,8 +3,8 @@
 I edited some sox source file,such as sox.c sox.h formats.c and CMakeLists.txt. you can Use Library like command.
 
 ### Graddle Installation
-1. Download the ``soxcommandlibrary-release.aar`` file onto your computer
-2. Then in your app module build.gradle file, add the path to the downloaded file like the example below
+1. Download the ``soxcommandlibrary-release.aar`` file onto your computer.
+2. Then in your app module build.gradle file, add the path to the downloaded file like the example below.
 
 ```gradle
 dependencies {
